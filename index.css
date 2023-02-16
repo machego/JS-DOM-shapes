@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-weight: 50;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.shapes {
+    background-color: #193549;;
+
+}
+
+.btn {
+    width: 85px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-color: silver;
+    font-weight: 600;
+}
+
+#square-btn {
+    background-color: #d1bb03;
+}
+
+#rectangle-btn {
+    background-color: red;
+}
+
+#circle-btn {
+    background-color: #00a913;
+}
+
+#triangle-btn {
+    background-color: #252aff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+@media (max-width: 500px) {
+    .items li {
+      width: 100%;
+    }
+  }
