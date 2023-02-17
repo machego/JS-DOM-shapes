@@ -9,7 +9,7 @@ squareBtn.style.backgroundColor = '#d1bb03';
 squareBtn.style['boxShadow'] = '1px 1px 1px black';
        
 document.querySelector('.shapes').appendChild(squareBtn)
-console.log(squareBtn)
+//console.log(squareBtn)
 
 // generate Square shape
 squareBtn.addEventListener('click', () => {
@@ -37,7 +37,7 @@ rectangleBtn.style.backgroundColor = 'red';
 rectangleBtn.style['boxShadow'] = '1px 1px 1px black';
        
 document.querySelector('.shapes').appendChild(rectangleBtn)
-console.log(rectangleBtn)
+//console.log(rectangleBtn)
    
    
 // generate rectangle shape
@@ -66,7 +66,7 @@ circleBtn.style.backgroundColor = '#00a913';
 circleBtn.style['boxShadow'] = '1px 1px 1px black';
        
 document.querySelector('.shapes').appendChild(circleBtn)
-console.log(circleBtn)
+//console.log(circleBtn)
 
 
 // generate circle shape
@@ -95,7 +95,7 @@ triangleBtn.style.backgroundColor = '#252aff';
 triangleBtn.style['boxShadow'] = '1px 1px 1px black';
        
 document.querySelector('.shapes').appendChild(triangleBtn)
-console.log(triangleBtn)
+//console.log(triangleBtn)
 
 
 // generate triangle shape
