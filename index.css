@@ -5,37 +5,23 @@ body {
     font-weight: 50;
     font-size: 25px;
     font-family: monospace;
+    text-shadow: 1px 1px 1px black;
+    color: #c5b416;
 }
 
 .shapes {
-    background-color: #193549;;
-
+    background-color: #193549;
 }
 
 .btn {
     width: 85px;
     height: 55px;
+    margin-left: 12px;
     border: 1px solid black;
     border-radius: 4px;
     color: whitesmoke;
     background-color: silver;
     font-weight: 600;
-}
-
-#square-btn {
-    background-color: #d1bb03;
-}
-
-#rectangle-btn {
-    background-color: red;
-}
-
-#circle-btn {
-    background-color: #00a913;
-}
-
-#triangle-btn {
-    background-color: #252aff;
 }
 
 .container {
